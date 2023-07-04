@@ -46,19 +46,3 @@ class ArrayList(estrutura_elementar):
             return self.elemento[index]
         else:
             return 1
-lista = ArrayList()
-
-print("Está vazio?", lista.esta_vazio())  
-print("Tamanho:", lista.tamanho())  
-print("Procura 40:", lista.procura(40))  
-print("Índice de 25:", lista.indice_de(25)) 
-print("Recupera índice 6:", lista.recupera_indice())  
-
-lista.inserir(15)
-lista.inserir(25)
-
-print("Está vazio?", lista.esta_vazio()) 
-print("Tamanho:", lista.tamanho())  
-print("Procura 40:", lista.procura(40))  
-print("Índice de 25:", lista.indice_de(25)) 
-print("Recupera índice 6:", lista.recupera_indice(6)) 
